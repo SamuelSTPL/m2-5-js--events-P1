@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  background-color: whitesmoke;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7px;
+  font-size: 50px;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-weight: bolder;
+  border-radius: 5px;
+}

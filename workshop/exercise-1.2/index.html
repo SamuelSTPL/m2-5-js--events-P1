@@ -1,7 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style></style>
+    <style>
+      body {
+        background-color: dodgerblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      #result {
+        color: pink;
+        font-size: 200px;
+      }
+      .time-text,
+      #time {
+        font-size: 50px;
+        color: white;
+        font-weight: bolder;
+      }
+      #time {
+        color: yellow;
+        margin: auto 15px;
+      }
+    </style>
   </head>
   <body>
     <p class="time-text">You have <span id="time"></span> seconds to click</p>
